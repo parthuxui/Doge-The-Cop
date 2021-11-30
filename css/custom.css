@@ -1,16 +1,16 @@
   @font-face {
-    font-family: Georama-Italic-VariableFont_wdth;
-    src: url(../Font/Georama-Italic-VariableFont_wdth,wght.ttf);
+    /*font-family: Georama-Italic-VariableFont_wdth;*/
+    /*src: url(../Font/Georama-Italic-VariableFont_wdth,wght.ttf);*/
 }
   @font-face {
-    font-family: Georama-VariableFont_wdth;
-    src: url(../Font/Georama-VariableFont_wdth,wght.ttf);
+    /*font-family: Georama-VariableFont_wdth;*/
+    /*src: url(../Font/Georama-VariableFont_wdth,wght.ttf);*/
 }
  
 
  @font-face{
-    font-family:chocolate-bar-demo-regular;
-	src: url(../Font/chocolate-bar-demo.regular.otf);
+    /*font-family:chocolate-bar-demo-regular;*/
+	/*src: url(../Font/chocolate-bar-demo.regular.otf);*/
  }
  html {
 	 overflow-x: hidden;
@@ -25,7 +25,7 @@
   .
   
  .choco_bar{
-	 font-family:chocolate-bar-demo-regular;
+	 /*font-family:chocolate-bar-demo-regular;*/
  } 
 .sticky {
     position: fixed;
@@ -58,7 +58,7 @@ li {
 }
 .nav>li>a {
 	padding: 20px 0px;
-	font-family:Georama-VariableFont_wdth;
+	/*font-family:Georama-VariableFont_wdth;*/
 }
 .active>a{
 	color: #FFFFFF;
@@ -94,7 +94,7 @@ li {
  }
 
  .sec-8{
- 	background-image:url('../images/bk1.png');
+ 	background-image:url('../images/bg1.png');
 
  	/*opacity: 0.7;*/
 	/*background-position: left;*/
@@ -107,6 +107,11 @@ li {
 
 #tokimg {
 	text-align: center;
+	margin-bottom:5%;
+}
+
+#tokimg img {
+	transform: translate(-6px,65px);
 }
 
 #cs{
@@ -195,7 +200,7 @@ line-height: 30px;
 }
 .so-text {
 	font-size: 20px;
-    font-family: chocolate-bar-demo-regular;
+    /*font-family: chocolate-bar-demo-regular;*/
     
 }
 .wel-4{
@@ -341,7 +346,7 @@ line-height: 34px;
     font-size: 15px;
     color: #000;
     display: flex;
-    font-family: 'Georama-VariableFont_wdth';
+    /*font-family: 'Georama-VariableFont_wdth';*/
     font-weight: lighter;
     line-height: 24px;
 }
@@ -365,7 +370,8 @@ line-height: 34px;
 
 }
 .fot-text{
-	font-family: chocolate-bar-demo-regular;
+	/*font-family: chocolate-bar-demo-regular;*/
+	font-family: a Abrushow;
     font-size: 45px;
     color: #FFF;
 	padding-bottom: 25px;
@@ -407,9 +413,7 @@ line-height: 34px;
 }
 
 .card-footer {
-	/*background-color: #c0f;*/
 	background: linear-gradient(97.2deg, #254C84 -8.04%, #3F8EFF 113.14%);
-
     border-radius: 8px;
 }
 .dwn-wp {
@@ -445,7 +449,8 @@ line-height: 34px;
     margin-top: 21px;
 }
 .text-sec4 {
-    padding: 3px;
+    padding-top: 70px;
+    height: 250px;
     text-align: center;
     position: relative;
     /*margin: 80px 0 0 0;*/
@@ -468,6 +473,9 @@ border-radius: 24px;
 }
 .mb-5 {
 	margin-bottom:5%;
+	margin-top: 5%;
+}
+.mt-5 {
 	margin-top: 5%;
 }
 /*-----------------------Flag Css-------------------*/
@@ -905,7 +913,7 @@ border-radius: 24px;
 }
 
 
-.card-body
+#card1, #card2, #card3, #card4
 {
 	background-color: #254C84;
 	color: white;
@@ -913,6 +921,11 @@ border-radius: 24px;
 }
 .card-text li{
  padding: 5px;
+}
+
+.card-text{
+	padding-left: 60px;
+    margin-left: 30px;
 }
 
 .card-header {
@@ -927,4 +940,8 @@ text-transform: capitalize;
   background: #DCDCDC;
   color: #FA9B27;
 text-align: center;
+
+ transform-origin: 0 0;
+  transform: rotate(270deg);
+  width: 160px;
 }
