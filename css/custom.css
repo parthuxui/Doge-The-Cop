@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
     font-family: Georama-Italic-VariableFont_wdth;
     src: url(../Font/Georama-Italic-VariableFont_wdth,wght.ttf);
 }
@@ -95,9 +95,28 @@ li {
 
  .sec-8{
  	background-image:url('../images/bk1.png');
- 	opacity: 0.7;
+
+ 	/*opacity: 0.7;*/
 	/*background-position: left;*/
  }
+
+#goc 
+{
+	margin-top: 3%;
+}
+
+#tokimg {
+	text-align: center;
+}
+
+#cs{
+	color: #FA9B27;
+	font-family: a Abrushow;
+font-style: normal;
+font-weight: normal;
+line-height: 43px;
+letter-spacing: 0.04em;
+}
 
  #imgrotate img{
  	transform: rotate(-13deg) !important;
@@ -110,6 +129,13 @@ top: 4445.14px;
  .ora-text{
    color: #FA9B27;
    background-color: #F5F5F5;
+   font-family: a Abrushow;
+font-style: normal;
+font-weight: normal;
+line-height: 43px;
+letter-spacing: 0.04em;
+padding: 5px;
+padding-left: 11px;
  }
  .wel {
 	 /*width:50%;*/
@@ -215,9 +241,12 @@ letter-spacing: 0.04em;
 }
 .img-sec2 {
 	padding: 30px 70px;
+	
 }
-.img-sec2>img {
-	width:80%;
+.img-sec2 img {
+	/*width:80%;*/
+	width: 219px;
+height: 40px;
 }
 .set-width {
 	width:70%;
@@ -244,7 +273,7 @@ letter-spacing: 0.04em;
 		border-bottom-right-radius: 10px;
 		border-top-left-radius: 5px;
 		border-bottom-left-radius: 5px;
-		border-color: #ab06ca;
+		border-color: #254C84;
 		background-color: #ded4e3;
 		    font-size: 2.7rem;
     text-align: center;
@@ -262,14 +291,18 @@ letter-spacing: 0.04em;
 .sec-7{
 	padding-top:5%;
 	padding-bottom:5%;
-	    background-color: #c7c1ca66;
+	    background-color: #F8FBFF;
 }
 .gra-text {
-	font-size: 23px;
+	font-size: 30px;
+line-height: 43px;
 	background: -webkit-linear-gradient(#0E2B55, #0069FF);
     -webkit-background-clip: text;
-    font-weight: 700;
-    font-family: chocolate-bar-demo-regular;
+    /*font-weight: 700;*/
+    /*text-align: center;*/
+    /*font-family: chocolate-bar-demo-regular;*/
+    font-family: a Abrushow;
+    letter-spacing: 0.04em;
     -webkit-text-fill-color: transparent;
 	
 }
@@ -279,10 +312,11 @@ letter-spacing: 0.04em;
 }
 .gra-text-p{
 	
-	font-size:28px;
-	color:#000; 	
-	font-family: 'Georama-VariableFont_wdth';
-    font-weight: 600;
+	font-size: 20px;
+line-height: 34px;
+	color:#343434; 	
+	font-family: Lato;
+    /*font-weight: 600;*/
 }
 .dot {
     position: absolute;
@@ -412,10 +446,20 @@ letter-spacing: 0.04em;
 }
 .text-sec4 {
     padding: 3px;
+    text-align: center;
     position: relative;
     /*margin: 80px 0 0 0;*/
     z-index: 1;
+    	border: 2px solid #FA9B27;
+box-sizing: border-box;
+border-radius: 24px;
 }
+
+/*#sec4{
+	border: 2px solid #FA9B27;
+box-sizing: border-box;
+border-radius: 24px;
+}*/
 .navbar-inverse .navbar-toggle {
 	    background-color: #000;
 }
@@ -424,6 +468,7 @@ letter-spacing: 0.04em;
 }
 .mb-5 {
 	margin-bottom:5%;
+	margin-top: 5%;
 }
 /*-----------------------Flag Css-------------------*/
 
@@ -770,4 +815,116 @@ letter-spacing: 0.04em;
     font-size: 2rem;
     text-align: center;
 }
+}
+
+/*--------------------------------------------------------------
+# Frequently Asked Questions
+--------------------------------------------------------------*/
+.faq .faq-list {
+  padding: 0 100px;
+}
+.faq .faq-list ul {
+  padding: 0;
+  list-style: none;
+}
+.faq .faq-list li + li {
+  margin-top: 15px;
+}
+.faq .faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.faq .faq-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+.faq .faq-list .icon-help {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #76b5ee;
+}
+.faq .faq-list .icon-show, .faq .faq-list .icon-close {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+.faq .faq-list .icon-show {
+  display: none;
+}
+.faq .faq-list a.collapsed {
+  color: #343a40;
+}
+.faq .faq-list a.collapsed:hover {
+  color: #1977cc;
+}
+.faq .faq-list a.collapsed .icon-show {
+  display: inline-block;
+}
+.faq .faq-list a.collapsed .icon-close {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .faq .faq-list {
+    padding: 0;
+  }
+}
+
+.section-bg {
+    /*background-color: #f1f7fd;*/
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+}
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.card-body
+{
+	background-color: #254C84;
+	color: white;
+	border-radius: 20px;
+}
+.card-text li{
+ padding: 5px;
+}
+
+.card-header {
+border-radius: 20px;
+  font-family: a Abrushow;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 51px;
+letter-spacing: 0.04em;
+text-transform: capitalize;
+  background: #DCDCDC;
+  color: #FA9B27;
+text-align: center;
 }
