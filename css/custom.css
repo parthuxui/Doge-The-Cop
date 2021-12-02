@@ -365,8 +365,6 @@ line-height: 34px;
     color: #000;
     display: flex;
     font-family: Lato;
-    /*font-family: 'Georama-VariableFont_wdth';*/
-    font-weight: lighter;
     line-height: 24px;
 }
 .fa-check , .fa-circle-o-notch{
@@ -895,10 +893,16 @@ border-radius: 24px;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  padding: 0 30px;
+  /*padding: 0 30px;*/
   outline: none;
   cursor: pointer;
 }
+
+.faqimg{
+ height: 30px;
+ padding-right: 7px;
+}
+
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
