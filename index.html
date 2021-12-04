@@ -3,6 +3,9 @@
 	<html>
 	<head>
 
+<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -26,34 +29,11 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
-	<style>
-	    
-	    .flex-cp-btn
-	{
-	    background: #c1c1c1;
-	    width: 100px;
-	    height: 40px;
-	    line-height: 40px;
-	    margin: 62px;
-	    margin-top: 21px;
-	    padding: 0;
-	    background: linear-gradient(to right, #ff9933 0%, #ff99ff 100%);
-	    border: none;
-	    border-radius: 10px;
-	    color: #fff;
-		pointer:events:none
-	}
-
-	.flex-btn-copy {
-	    display: flex;
-	    justify-content: space-between;
-	    margin: 0 0 -70px;
-	}
-
-	</style>
+	
 	<title>Doge The Cop
 	</title>
 	</head>
+
 	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<header>
 	<nav id="myTopnav" class="navbar navbar-inverse">
@@ -88,15 +68,15 @@
 	<div class="container">
 		<div class="wel">
 		  <div class="row">
-		  	<div class="col-lg-5 col-md-5 col-sm-5">
-		  		<img src="images/BannerCop.png">
+		  	<div class="col-lg-5 col-md-5 col-sm-12" id="welcol">
+		  		<img src="images/BannerCop.png" id="welimg">
 		  	</div>
-			<div class="col-lg-7 col-md-7 col-sm-7">
+			<div class="col-lg-7 col-md-7 col-sm-12" id="welpg">
 			<h3 class="wel-pup">WELCOME TO DOGE THE COP</h3>
 			<p class="wel-para">One of the most highly rewarded tokens with a reward of 11%. The longer you stay,the more you earn.</p>
 			<p class="wel-para1">Pre-sales starts from 15th December</p>
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="col-lg-4 col-md-4 col-sm-12">
 					<div class="wel-btn">				
 						<!-- <button type="button" class="btc btn-success btn-p top-btn"><a href="#" class="fa fa-twitter"></a><span class="so-text">PinkSale</span></button> -->
 						<img src="images/pinksale.png">
@@ -113,28 +93,28 @@
 	<div class="container" id="seen">
 		<div class="row">
 		<div class="col-lg-12">
-			<h4 class="seen-pup text-center mb-5">AS SEEN IN</h4>
+			<h3 class="gra-text text-center" style="margin-top: 4%">AS SEEN IN</h3>
 		</div>
 		</div>
 		  <div class="row">
-			<div class="img-sec2 col-lg-3 col-md-3 col-sm-3">
+			<div class="img-sec2 col-lg-3 col-md-3 col-sm-6 col-xs-6">
 				<a href="https://poocoin.app/tokens/0x55b52a5ada6b938a482ce15dd3b0b00ba138bdea"><img src="images/img1.png"></a>
 			</div>
-			<div class="img-sec2 col-lg-3 col-md-3 col-sm-3">
+			<div class="img-sec2 col-lg-3 col-md-3 col-sm-6 col-xs-6">
 				<a href=" https://bscscan.com/token/0x55b52a5ada6b938a482ce15dd3b0b00ba138bdea#balances"><img src="images/img2.png"></a>
 			</div>
-			<div class="img-sec2 col-lg-3 col-md-3 col-sm-3">
+			<div class="img-sec2 col-lg-3 col-md-3 col-sm-6 col-xs-6">
 				<a href="https://pancakeswap.finance/swap/0x55b52a5ada6b938a482ce15dd3b0b00ba138bdea"><img src="images/img3.png"></a>
 			</div>
-			<div class="img-sec2 col-lg-3 col-md-3 col-sm-3">
+			<div class="img-sec2 col-lg-3 col-md-3 col-sm-6 col-xs-6">
 				<a href="https://www.dextools.io/app/bsc/pair-explorer/0x01c9a482848505f64c6b209b1f16ef8c2d2439f5"><img src="images/dext.png"></a>
 			</div>
 		  </div>
 		  <div class="row">
-			<div class="img-sec2 col-lg-4 col-md-4 col-sm-4">
+			<div class="img-sec2 col-lg-4 col-md-4 col-sm-4 ">
 				<a href="https://poocoin.app/tokens/0x55b52a5ada6b938a482ce15dd3b0b00ba138bdea"><img src="images/img5.png"></a>
 			</div>
-			<div class="img-sec2 col-lg-4 col-md-4 col-sm-4">
+			<div class="img-sec2 col-lg-4 col-md-4 col-sm-4 ">
 				<a href=" https://bscscan.com/token/0x55b52a5ada6b938a482ce15dd3b0b00ba138bdea#balances"><img src="images/img6.png"></a>
 			</div>
 			<div class="img-sec2 col-lg-4 col-md-4 col-sm-4">
@@ -144,7 +124,7 @@
 	<div class="custom-container"> 
 	  <div class="row bor-bt" style="border-top: 1px solid #254C84;">
 		<div class="col-lg-12">
-			<h4 class="seen-pup text-center mb-5">CONTRACT ADDRESS</h4>
+			<h3 class="gra-text text-center mb-5">CONTRACT ADDRESS</h3>
 		</div>
 		</div>
 		<div class="row">
@@ -166,31 +146,34 @@
 			<h4 class="seen-pup">ECOSYSTEM TO SERVE THE COMMUNITY</h4>
 		</div>
 	   </div>
-	   <div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-4">
+	   <!-- <div class="row">
+		<div class="col-lg-4 col-md-4 col-sm-12">
 			<img src="images/dex.png">
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-4 col-md-4 col-sm-12">
 			<img src="images/netm.png">
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-4 col-md-4 col-sm-12">
 			<img src="images/netg.png">
 		</div>
-	  </div>  
+	  </div>  --> 
 	  <div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="images/dex.png" id="sec3Img">
 			<div class="text-sec3">
 				<h3 class="gra-text">DEX</h3>
 				<h6 class="gra-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dapibus senectus morbi lacus.</h6>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="images/netm.png" id="sec3Img">
 			<div class="text-sec3">
 				<h3 class="gra-text">NFT MARketplace</h3>
 				<h6 class="gra-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dapibus senectus viverra quis vulputate vulputate. Vel elit.</h6>
 			</div>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<img src="images/netg.png" id="sec3Img">
 			<div class="text-sec3">
 				<h3 class="gra-text">NFT GAMEs</h3>
 				<h6 class="gra-text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dapibus senectus morbi lacus, orci duis nunc sed. Vel elit.</h6>
@@ -236,21 +219,21 @@
 		</div>
 		<div class="row" id="tokimg">
 		<div class="col-lg-4 col-md-4 col-sm-4">
-         <img src="images/RewardCop.png">
+         <img src="images/RewardCop.png" id="puppy">
          <div class="text-sec4">
 				<h3 class="gra-text">6% Rewards for holder</h3>
 				<h6 class="gra-text-p">Simply by holding DTC token, 6% of each transaction on Buy and Sell will be redistributed to all holders.</h6>
 			</div>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4">
-        <img src="images/LiquidityCop.png">
+        <img src="images/LiquidityCop.png" id="puppy">
         <div class="text-sec4">
 				<h3 class="gra-text">4% Added liquidity pool</h3>
 				<h6 class="gra-text-p">Automatically, 4 % of each transaction on Buy and Sell is added to the liquidity pool.</h6>
 			</div>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-4">
-			<img src="images/DonationCop.png">
+			<img src="images/DonationCop.png" id="puppy">
 			<div class="text-sec4">
 				<h3 class="gra-text">1% Donation</h3>
 				<h6 class="gra-text-p">A monetary donation will be made to organization that is truly in need.</h6>
@@ -298,7 +281,7 @@
 			</div>
 		</div>
 		<div class="col-lg-4 col-md-12 col-sm-12">
-			<img src="images/Donut-Chart.png">
+			<img src="images/Donut-Chart.png" id="pie">
 		</div>
 	  </div>
 	</div>
@@ -312,9 +295,9 @@
 		</div>
 		</div>	 
 	  <div class="row pt-2 pb-5 test">		
-		<div class="col-lg-8 col-md-8 col-sm-8 col-8 ">
+		<div class="col-lg-8 col-md-8 col-sm-8 col-12 ">
 		<div class="row">
-			<div class="col-lg-10 col-md-10 col-sm-10 col-10 col-xs-8">
+			<div class="col-lg-10 col-md-10 col-sm-10 col-12 col-xs-12">
 				<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
 					<div class="text-sec6 mrg-top-21" >
@@ -364,8 +347,8 @@ use slippage 10% - 15%.
 			</div>
 			</div>	
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 col-4" id="imgrotate">
-			<img src="images/HowToBuy.png">
+		<div class="col-lg-4 col-md-4 col-sm-12 col-4" id="imgrotate">
+			<img src="images/HowToBuy.png" id="buy">
 		</div>
 	  </div>
 	</div>
@@ -379,7 +362,7 @@ use slippage 10% - 15%.
 		</div>
 		</div>	   
 	  <div class="row">
-		<div class="col-lg-5 col-md-5 col-sm-5">
+		<div class="col-lg-5 col-md-5 col-sm-12">
 			<div class="card border-dark mb-3" style="max-width: 35rem;">
   <div class="card-body" id="card1">
     <ul class="card-text">
@@ -393,12 +376,12 @@ use slippage 10% - 15%.
   <div class="card-header">Phase1</div>
  </div>
 	</div>
-     <div class="col-lg-2 col-md-2 col-sm-2 col-2 col-xs-4">
+     <div class="col-lg-2 col-md-2 col-2 ">
 			<div class="imgtop">
-				<img src="images/Top.png" class="mymg" height="100px" />	
+				<img src="images/Top.png" class="mymg" height="150px" />	
 			</div>	
      </div>
-	<div class="col-lg-5 col-md-5 col-sm-5">
+	<div class="col-lg-5 col-md-5 col-sm-12">
 	 <div class="card border-dark mb-3" style="max-width: 35rem;">
      <div class="card-body " id="card2">
       <ul class="card-text">
@@ -413,7 +396,7 @@ use slippage 10% - 15%.
   </div>
   </div>
 
-	<div class="col-lg-5 col-md-5 col-sm-5">
+	<div class="col-lg-5 col-md-5 col-sm-12">
     <div class="card border-dark mb-3" style="max-width: 35rem;">
      <div class="card-body" id="card3">
      <ul class="card-text">
@@ -428,13 +411,13 @@ use slippage 10% - 15%.
 </div>	
 	</div>
 
-<div class="col-lg-2 col-md-2 col-sm-2 col-2 col-xs-4">
+<div class="col-lg-2 col-md-2 col-2 ">
 			<div class="imgbot">
-				<img src="images/Bottom.png" class="mymg" height="100px" />	
+				<img src="images/Bottom.png" class="mymg" height="150px" />	
 			</div>	
-		</div>
+</div>
 
-<div class="col-lg-5 col-md-5 col-sm-5">
+<div class="col-lg-5 col-md-5 col-sm-12">
 	<div class="card border-dark mb-3" style="max-width: 35rem;">
   <div class="card-body " id="card4">
     <ul class="card-text">
@@ -517,7 +500,7 @@ use slippage 10% - 15%.
 	<footer class="footer">
 		<div class="custom-container">
 		  <div class="row pb-4 bor-bt">
-			<div class="col-lg-8 col-md-8 col-sm-8">
+			<div class="col-lg-8 col-md-12 col-sm-12">
 				<h4 class="fot-text">CONNECT WITH US</h4>
 				<span class="footer-icon"><a href="https://t.me/Puppiesdoge"><i class="fa fa-telegram fot" aria-hidden="true"></i> </a></span>
 				<span class="footer-icon"><i class="fa fa-twitter fot" aria-hidden="true"></i></span>
@@ -526,8 +509,8 @@ use slippage 10% - 15%.
 				<span class="footer-icon"><a href="https://www.reddit.com/user/PuppiesDoge"><i class="fa fa-reddit fot" aria-hidden="true"></i></a></span>
 				<span class="footer-icon"><i class="fa fa-github fot" aria-hidden="true"></i></span>
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 mobile-res">
-				<div class="card">
+			<div class="col-lg-4 col-md-12 col-sm-12 mobile-res">
+				<div class="card foot-card">
 					<div class="card-body">
 						<img class="footer-logo" src="images/Logo.png">
 					</div>
@@ -538,16 +521,16 @@ use slippage 10% - 15%.
 			</div>
 		  </div>
 		  <div class="row">
-			<div class="col-lg-8">
+			<div class="col-lg-8 col-md-12 col-sm-12" id="footer-text">
 				<h6 class="copyright-text">Copyright @2021 Doge The Cop. All Right Reserved.</h6>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-4 col-md-12 col-sm-12" id="footer-text">
 				<h6 class="privacy">Privacy Policy & Terms Conditions</h6>
 			</div>
 		  </div>
 		</div>
-
 	</footer>
+
 	<script>
 	window.onscroll = function() {myFunction()};
 
