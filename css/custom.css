@@ -127,6 +127,8 @@ li
 .sec-8
 {
  	background-image:url('../images/bg1.png');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
  	/*opacity: 0.7;*/
 	/*background-position: left;*/
 }
@@ -140,6 +142,10 @@ li
 {
 	text-align: center;
 	margin-bottom:5%;
+}
+
+.playimg {
+	margin-top: 50%;
 }
 
 #tokimg img 
@@ -184,7 +190,7 @@ li
  }
 .wel-pup 
 {
-	font-size: 60px;
+	font-size: 50px;
 	/*line-height: 64px;*/
 	letter-spacing: 0.14em;
     color:#FFFFFF;
@@ -847,7 +853,7 @@ text-align: center;
 
 	.wel-pup {
 		text-align: center;
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.wel-para, .wel-para1, .wel-btn {
@@ -931,6 +937,7 @@ text-align: center;
 	width: 15%;
 	float: left;
 	margin-top: 5%;
+	margin-right: 3%;
 }
 .imgbot, .imgtop{
 	display: none;
@@ -984,6 +991,10 @@ font-size: 10px;
 
 .foot-card{
 	margin-top: 20px;
+}
+
+.seen-gm {
+	font-size: 30px;
 }
 
 .dwn-wp {
