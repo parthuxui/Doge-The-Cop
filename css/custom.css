@@ -50,6 +50,10 @@ body
     /*box-shadow: 3px 4px 5px #cbc8c8;*/
 	border: none;
 }
+
+.navbar-right {
+	margin-right: 10px;
+}
 img 
 {
 	max-width:100%;
@@ -63,6 +67,7 @@ li
 {
     /*display: block;*/
     margin-top: 10px;
+    margin-left: 15px;
     /*width: 30%;*/
 }
 .navbar-inverse .navbar-nav>li>a 
@@ -77,6 +82,7 @@ li
 	font-style: normal;
     font-weight: 500;
    line-height: 24px;
+   margin-right: 15px;
 }
 .active>a
 {
@@ -144,7 +150,7 @@ li
 #cs
 {
 	color: #FA9B27;
-	font-family: a Abrushow;
+	font-family: Kavoon;
     font-style: normal;
     font-weight: normal;
     line-height: 43px;
@@ -179,16 +185,17 @@ li
 .wel-pup 
 {
 	font-size: 60px;
-	line-height: 64px;
+	/*line-height: 64px;*/
 	letter-spacing: 0.14em;
     color:#FFFFFF;
-	font-family: a Abrushow;
+	/*font-family: a Abrushow;*/
+	font-family: Kavoon;
 	text-transform:none;
 }
 .wel-para
 {
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 8%;
+    margin-bottom: 9%;
     color:#FFFFFF;
     font-family: Lato;
     font-size: 24px;
@@ -215,7 +222,7 @@ li
 	    padding: 5px 25px;
 		font-size: 30px;
 		color:#fff;
-		font-family: a Abrushow;
+		font-family: Kavoon;
 		height: 60px;
 }
 .copy_btn:hover
@@ -264,7 +271,7 @@ margin-top: 2%;
 	/*color: linear-gradient(97.2deg, #254C84 -8.04%, #3F8EFF 113.14%);*/
 	/*color: #254C84;*/
 	background: -webkit-linear-gradient(#0E2B55, #0069FF);
-	font-family: a Abrushow;
+	font-family: Kavoon;
 	background: -webkit-linear-gradient(#0E2B55, #0069FF);
     -webkit-background-clip: text;
     font-weight: 700;
@@ -273,6 +280,23 @@ margin-top: 2%;
 	line-height: 43px;
 	letter-spacing: 0.04em;
 }
+
+.seen-gm
+{
+	/*color: linear-gradient(97.2deg, #254C84 -8.04%, #3F8EFF 113.14%);*/
+	/*color: #254C84;*/
+	/*background: -webkit-linear-gradient(#0E2B55, #0069FF);*/
+	font-family: Kavoon;
+	/*background: -webkit-linear-gradient(#0E2B55, #0069FF);*/
+    /*-webkit-background-clip: text;*/
+    font-weight: 700;
+    /*-webkit-text-fill-color: transparent;*/
+	font-size: 40px;
+	line-height: 43px;
+	letter-spacing: 0.04em;
+	color: white;
+}
+
 .sec-5 
 {
 	background-color: #F8FBFF;
@@ -359,7 +383,7 @@ padding: 16px 28px;
     /*font-weight: 700;*/
     /*text-align: center;*/
     /*font-family: chocolate-bar-demo-regular;*/
-    font-family: a Abrushow;
+    font-family: Kavoon;
     letter-spacing: 0.04em;
     -webkit-text-fill-color: transparent;
 	
@@ -393,8 +417,9 @@ padding: 16px 28px;
 }
 .sd-img
 {
-	width:60%;
+	width:30%;
 	float: right;
+	height: 50px;
 }
 
 .pb-3 
@@ -439,7 +464,7 @@ padding: 16px 28px;
 .fot-text
 {
 	/*font-family: chocolate-bar-demo-regular;*/
-	font-family: a Abrushow;
+	font-family: Kavoon;
     font-size: 45px;
     color: #FFF;
 	padding-bottom: 25px;
@@ -712,9 +737,10 @@ border-radius: 24px;
 	border-radius: 20px;
 	font-family: Lato;
 letter-spacing: 0.05em;
+width: 450px;
 }
 .card-text li{
- padding: 8px;
+ padding: 5px;
 }
 
 .card-text{
@@ -741,6 +767,10 @@ text-align: center;
   transform: rotate(270deg);
   width: 210px;
 }
+
+#pie {
+		height: 300px;
+	}
 
 
 /*-----------------------------Responsive Css------------------*/
@@ -776,6 +806,8 @@ text-align: center;
 
 .con_add {
 	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .copy_btn {
@@ -785,6 +817,8 @@ text-align: center;
 
 .gra-text-p {
 	font-size: 15px;
+	line-height: 24px;
+    margin-top: 5%;
 }
 
 .ora-text {
@@ -828,6 +862,9 @@ text-align: center;
 
 	.img-sec2 img{
 		width: 180px;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
 	}
 
 	.gra-text {
@@ -854,15 +891,24 @@ text-align: center;
 	}
 
 	#sec3Img {
-		width: 100%;
+		/*width: 100%;*/
 		height: 200px;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
 	}
+
 
 	#puppy, .text-sec4, #pie, #buy{
 		display: block;
   margin-left: auto;
   margin-right: auto;
 	}
+
+#card1, #card2, #card3, #card4
+{
+	width: 100%;
+}
 
 .text-sec4 {
 	height: 320px;
@@ -882,7 +928,9 @@ text-align: center;
 	height: 400px;
 }
 .sd-img {
-	width: 10%;
+	width: 15%;
+	float: left;
+	margin-top: 5%;
 }
 .imgbot, .imgtop{
 	display: none;
@@ -894,9 +942,9 @@ text-align: center;
 }
 
 .footer-icon {
-	margin-right: 3%;
+	/*margin-right: 3%;
 	padding: 5px;	
-	padding-top: 15px;
+	padding-top: 1*/5px;
     padding-bottom: 8px;
 }
  #footer-text {
@@ -917,6 +965,7 @@ font-size: 10px;
 
 .navimg{
 	float: left;
+	width: 300px;
 }
 
 .navimg img{
