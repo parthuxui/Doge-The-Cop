@@ -395,6 +395,16 @@ padding: 16px 28px;
 	
 }
 
+#disc_p {
+	margin-bottom: 3%;
+    
+}
+
+#disc_p p{
+	font-family: Lato;
+	font-size: 15px;
+	}
+
 .gra-text, .htb-text 
 {
     margin: 0px 0 0;
@@ -625,12 +635,14 @@ border-radius: 24px;
 .imgtop
 {
 	margin-top: 100px;
+	text-align: center;
 }
 
 .imgbot 
 {
 	margin-top: -12px;
-	margin-left: 1px;
+	margin-left: -1px;
+	text-align: center;
 }
 
 /*.wrapper-img {
@@ -735,6 +747,15 @@ border-radius: 24px;
     margin-bottom: 0;
 }
 
+.sec9{
+	margin-top: 2%;
+}
+
+.sec-9
+{
+	background-color: #F8FBFF;
+}
+
 
 #card1, #card2, #card3, #card4
 {
@@ -743,7 +764,7 @@ border-radius: 24px;
 	border-radius: 20px;
 	font-family: Lato;
 letter-spacing: 0.05em;
-width: 450px;
+width: 400px;
 }
 .card-text li{
  padding: 5px;
