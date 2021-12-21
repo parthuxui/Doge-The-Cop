@@ -104,6 +104,11 @@ li
 	color: #FFFFFF;
     background-color: transparent !important;
  }
+
+.dwp>a:hover {
+  color: white !important;
+}
+
 .sec-1 
  {
 	padding-top: 10%;
@@ -395,6 +400,19 @@ padding: 16px 28px;
 	
 }
 
+.seen-disc {
+	background: -webkit-linear-gradient(#0E2B55, #0069FF);
+	font-family: Kavoon;
+	background: -webkit-linear-gradient(#0E2B55, #0069FF);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+	font-size: 30px;
+	line-height: 43px;
+	letter-spacing: 0.04em;
+
+}
+
 #disc_p {
 	margin-bottom: 3%;
     
@@ -521,15 +539,16 @@ padding: 16px 28px;
 }
 .footer-logo
 {
-	width: 50%;
-    margin-left: 25%;
-    margin-bottom: 5px;
+	width: 80%;
+    /*margin-left: 25%;*/
+    margin-bottom: 3%;
 }
 
 .card-footer 
 {
 	background: linear-gradient(97.2deg, #254C84 -8.04%, #3F8EFF 113.14%);
     border-radius: 8px;
+    width: 80%;
 }
 .dwn-wp 
 {
@@ -537,12 +556,18 @@ padding: 16px 28px;
     font-size: 22px;
     font-family: chocolate-bar-demo-regular;
     font-style: italic;
-    font-weight: bolder;
+    
 }
 .dwp 
 {
 	text-align:center;
+	padding: 2%;
 }
+
+.dwp a {
+	font-family: Kavoon;
+}
+
 .copyright-text 
 {
 	color:#fff;
@@ -1084,6 +1109,17 @@ font-size: 10px;
 
 #connectus{
 	text-align: center;
+}
+
+.footer-logo
+{
+	width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.card-footer {
+	margin-left: 8%;
 }
 
 /*#ph4 {
