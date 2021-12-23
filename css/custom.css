@@ -39,6 +39,11 @@ body
     z-index: 99999;
 }*/
 
+.pcs {
+	height: 53px;
+	margin-left: -10%;
+}
+
 .navbar
 {
 	border-radius: 0px !important;
@@ -111,6 +116,7 @@ li
 
 .sec-1 
  {
+ 	/*margin-top: 30%;*/
 	padding-top: 10%;
     padding-bottom: 6%;
 	/*background-image:url('../images/BannerCop.png');*/
@@ -168,6 +174,16 @@ li
     letter-spacing: 0.04em;
 }
 
+.colimg1 {
+	margin-left: 50%;
+}
+.colimg2 {
+	margin-left: 20%;
+}
+.colimg3 {
+	margin-left: -20%;
+}
+
 #buy
 {
  	transform: rotate(-13deg) !important;
@@ -181,7 +197,7 @@ li
 {
     color: #FA9B27;
     background-color: #F5F5F5;
-    font-family: a Abrushow;
+    font-family: Kavoon;
 	font-style: normal;
 	font-weight: normal;
 	line-height: 43px;
@@ -219,7 +235,7 @@ li
 	font-family: Lato;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 30px;
 }
 .btn-p 
@@ -315,12 +331,12 @@ margin-top: 2%;
 }
 .img-sec2 
 {
-	padding: 30px 70px;	
+	padding: 20px 70px;	
 }
 .img-sec2 img 
 {
 width: 175.75px;
-height: 58.45px;
+/*height: 58.45px;*/
 }
 .set-width 
 {
@@ -888,8 +904,23 @@ text-align: center;
 }
 
 .alert {
-	font-size: 12px;
+	font-size: 10px;
+	padding: 6px;
+	height: 50px;
 }
+
+.alert-dismissible {
+  padding-right: 35px;
+}  
+
+.sec-1{
+	padding-top: 17%;
+}
+
+.colimg3{
+	height: 47px !important;
+}
+
 
 /*.custom-container{
 	margin: 0px 0px;
@@ -928,6 +959,16 @@ text-align: center;
 	line-height: 33px;
 }
 
+.colimg1 {
+	margin-left: 0% !important;
+}
+.colimg2 {
+	margin-left: 0% !important;
+}
+/*.colimg3 {
+	margin-left: 0% !important;
+}*/
+
 /*#welcol{
 	text-align: center;
 }
@@ -952,9 +993,14 @@ text-align: center;
 		font-size: 25px;
 	}
 
-	.wel-para, .wel-para1, .wel-btn {
+	.wel-para, .wel-btn {
 		text-align: center;
 		font-size: 15px;
+	}
+
+	.wel-para1 {
+		text-align: center;
+		font-size: 12px;
 	}
 
 	.wel-btn {
@@ -967,7 +1013,8 @@ text-align: center;
 }
 
 	.img-sec2 img{
-		width: 180px;
+		height: 33px;
+		/*width: 180px;*/
 		display: block;
   margin-left: auto;
   margin-right: auto;
@@ -981,6 +1028,12 @@ text-align: center;
    	font-size: 30px;
 
    }
+
+
+
+/*.sec-1  {
+ 	margin-top: 30%;
+ }*/
 
 #hide1{
 	display: block;
@@ -1029,6 +1082,12 @@ text-align: center;
 	height: 25px;
 	padding-right: 1px;
 }
+
+.pcs {
+	
+	margin-left: 0%;
+}
+
 
 #buy {
 	height: 400px;
@@ -1117,6 +1176,7 @@ font-size: 10px;
     margin-left: 25%;
     margin-bottom: 3%;
 }
+
 
 .card-footer {
 	margin-left: 8%;
